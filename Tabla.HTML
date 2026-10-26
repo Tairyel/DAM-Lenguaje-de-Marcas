@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f4f6f8;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1f3a5f;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #1f5f8b;
+            color: white;
+        }
+
+        .recreo {
+            background-color: #ffe599;
+            font-weight: bold;
+        }
+
+        .observaciones {
+            background-color: #d9ead3;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>
+            <h1>Horario semanal de DAM</h1>
+        </caption>
+        <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+
+        <tr>
+            <td>08:00 - 09:00</td>
+            <td>Redes</td>
+            <td>Sistemas Operativos</td>
+            <td>Redes</td>
+            <td>Aplicaciones Web</td>
+            <td>Sistemas Operativos</td>
+        </tr>
+
+        <tr>
+            <td>09:00 - 10:00</td>
+            <td>Redes</td>
+            <td>Ofimática</td>
+            <td>Aplicaciones Web</td>
+            <td>Redes</td>
+            <td>Ofimática</td>
+        </tr>
+
+        <tr>
+            <td>10:00 - 10:30</td>
+
+            <td colspan="5" class="recreo">RECREO</td>
+        </tr>
+
+        <tr>
+            <td>10:30 - 11:30</td>
+            <td>Aplicaciones Web</td>
+            <td>Redes</td>
+            <td>Sistemas Operativos</td>
+            <td>Ofimática</td>
+            <td>Redes</td>
+        </tr>
+
+        <tr>
+            <td>11:30 - 12:30</td>
+            <td>Ofimática</td>
+            <td>Aplicaciones Web</td>
+            <td>Ofimática</td>
+            <td>Sistemas Operativos</td>
+            <td>Aplicaciones Web</td>
+        </tr>
+
+        <tr>
+            <td colspan="6" class="observaciones">
+                <b>Observaciones:</b> El horario puede sufrir modificaciones durante el curso.
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
